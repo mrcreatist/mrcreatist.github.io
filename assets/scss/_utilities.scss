@@ -1,0 +1,27 @@
+h1 {
+  @extend %heading-one;
+}
+
+h2 {
+  @extend %heading-two;
+}
+
+p {
+  @extend %paragraph;
+}
+
+.mt-10 {
+  margin-top: 10rem !important;
+}
+
+.view {
+  @extend %view;
+}
+
+.bg_svg {
+  @extend %bg-svg;
+}
+
+.card-box {
+  @extend %card-box;
+}

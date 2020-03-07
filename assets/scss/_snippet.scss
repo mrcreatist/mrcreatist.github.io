@@ -1,0 +1,66 @@
+%app-class {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+%heading-one {
+  font-size: 2.2rem;
+  width: 80%;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 4rem;
+  }
+}
+
+%heading-two {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  width: 100%;
+  font-weight: bold;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 2rem;
+    width: 80%;
+  }
+}
+
+%paragraph {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  width: 100%;
+
+  @media screen and (min-width: $desktop) {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+
+%card-box {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+%bg-svg {
+  z-index: -1;
+  position: absolute;
+  background-size: 100% 100%;
+  opacity: 0.1;
+
+  @media screen and (max-width: $desktop) {
+    display: none;
+  }
+}
+
+%view {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
