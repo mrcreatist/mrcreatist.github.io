@@ -1,0 +1,133 @@
+body {
+  background-color: $primary;
+}
+
+html {
+  &::-webkit-scrollbar {
+    background-color: $primary;
+  }
+  &::-webkit-scrollbar-button {
+    background-color: $primary;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $primary;
+  }
+  &::-webkit-scrollbar-track-piece {
+    background-color: $primary;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $accent;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: $accent;
+  }
+  &::-webkit-resizer {
+    background-color: $accent;
+  }
+}
+
+h1,
+h2,
+h4,
+p,
+li,
+sup,
+strong,
+a {
+  color: $secondary;
+
+  &::selection {
+    color: $primary;
+    background-color: $secondary;
+  }
+}
+
+a {
+  &:visited,
+  &:hover,
+  &:active {
+    color: $secondary;
+  }
+}
+
+.app-header {
+  background: $primary;
+  box-shadow: 0 0 3em $shadow-light;
+}
+
+.app-footer {
+  .view {
+    background: $accent;
+    box-shadow: 0px 6px 12px $shadow;
+  }
+
+  .email_btn {
+    background: $primary;
+  }
+}
+
+.app-card {
+  background: $primary;
+  box-shadow: 0px 6px 12px $shadow;
+
+  &:hover {
+    box-shadow: 0px 6px 12px $shadow-dark;
+  }
+
+  h4 {
+    color: $secondary-light;
+  }
+
+  .divide-line {
+    background-color: $secondary;
+  }
+
+  .indicator {
+    background-color: $accent;
+  }
+
+  .fa {
+    color: $accent;
+  }
+}
+
+.app-project-detial {
+  .github-btn {
+    background-color: $accent-light;
+    color: $secondary;
+    box-shadow: 0px 6px 12px $shadow;
+
+    &:hover {
+      box-shadow: 0px 6px 12px $shadow-dark;
+    }
+  }
+
+  .fab {
+    margin-right: 1rem;
+  }
+}
+
+.app-social-media {
+
+  .line-divide {
+    background-color: $secondary;
+  }
+
+  span {
+    a {
+      color: $secondary;
+
+      &:hover {
+        color: $shadow-dark;
+      }
+
+      &:active {
+        color: $secondary;
+      }
+    }
+  }
+
+  .bottom-shade {
+    background-color: $accent;
+  }
+}
