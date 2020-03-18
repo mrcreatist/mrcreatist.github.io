@@ -1,0 +1,11 @@
+// dark theme
+.dark-theme {
+    $primary: #1f1f1f;
+    $secondary: #ffffff;
+    $accent: #302a29;
+    $shadow: #1b1b1b;
+    $secondary-light: darken($secondary, 50%);
+    $accent-light: darken($accent, 0%);
+    $shadow-light: lighten($shadow, 8%);
+    $shadow-dark: darken($shadow, 3%);
+}

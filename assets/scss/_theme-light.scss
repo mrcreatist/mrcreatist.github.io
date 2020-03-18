@@ -1,0 +1,11 @@
+// light theme
+// .light-theme {
+    $primary: white;
+    $secondary: black;
+    $accent: #6d4f462e;
+    $shadow: #e4e4e4;
+    $secondary-light: lighten($secondary, 50%);
+    $accent-light: lighten($accent, 40%);
+    $shadow-light: lighten($shadow, 8%);
+    $shadow-dark: darken($shadow, 10%);
+// }
