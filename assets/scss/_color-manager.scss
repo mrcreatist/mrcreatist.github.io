@@ -53,6 +53,10 @@ a {
 .app-header {
   background: $primary;
   box-shadow: 0 0 3em $shadow-light;
+
+  .fa {
+    color: $secondary;
+  }
 }
 
 .app-footer {
