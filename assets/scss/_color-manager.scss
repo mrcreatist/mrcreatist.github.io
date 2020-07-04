@@ -6,21 +6,27 @@ html {
   &::-webkit-scrollbar {
     background-color: $primary;
   }
+
   &::-webkit-scrollbar-button {
     background-color: $primary;
   }
+
   &::-webkit-scrollbar-track {
     background-color: $primary;
   }
+
   &::-webkit-scrollbar-track-piece {
     background-color: $primary;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: $accent;
   }
+
   &::-webkit-scrollbar-corner {
     background-color: $accent;
   }
+
   &::-webkit-resizer {
     background-color: $accent;
   }
@@ -43,6 +49,7 @@ a {
 }
 
 a {
+
   &:visited,
   &:hover,
   &:active {
@@ -50,9 +57,36 @@ a {
   }
 }
 
-.app-header {
+.app-loader {
   background: $primary;
-  box-shadow: 0 0 3em $shadow-light;
+  color: $secondary;
+
+  .loader {
+
+    .center,
+    .item {
+      background: $accent;
+    }
+  }
+}
+
+.app-header {
+  background: $accent;
+  box-shadow: 0 0 3em $shadow;
+
+  .material-icons {
+    color: $secondary;
+  }
+
+  .hint-box {
+    background-color: $primary;
+    color: $secondary;
+    box-shadow: 0 0 3em $shadow;
+
+    &::before {
+      color: $primary;
+    }
+  }
 
   .fa {
     color: $secondary;
